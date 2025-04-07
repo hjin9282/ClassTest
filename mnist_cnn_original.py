@@ -3,6 +3,7 @@ Gets to 99.25% test accuracy after 12 epochs
 (there is still a lot of margin for parameter tuning).
 16 seconds per epoch on a GRID K520 GPU.
 '''
+# 2025. 04. 07
 
 from __future__ import print_function
 import tensorflow.keras
@@ -18,6 +19,7 @@ import os
 import tensorflow as tf
 
 print(tf.__version__)
+print("hi")
 
 batch_size = 128
 num_classes = 10
